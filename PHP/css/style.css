@@ -1,0 +1,121 @@
+body {
+    background-image: linear-gradient(to right, rgb(2, 0, 111), rgb(237, 79, 255));
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    /* overflow: hidden; */
+    
+
+}
+
+.mainPage {
+
+    position: absolute;
+    /* top: 10%;
+    left: 50%; */
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    text-align: center;
+
+}
+.about {
+
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+
+}
+
+.contact {
+
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+
+}
+.services {
+
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+
+}
+
+
+/* .details > h1 {
+    position: absolute;
+    text-align: center;
+    bottom: 1000px;
+    
+} */
+p{
+    text-align: right;
+}
+
+
+nav {
+    position: absolute;
+}
+ul.nav{
+
+    padding-left: 0px;
+    background-color: rgba(208, 208, 208, 50%);
+    text-align: center;
+}
+ul.nav > li{
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+ul.nav >li:hover{
+
+    background-color: rgba(108, 108, 108, 25%);
+}
+
+ul.nav > li > a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+li{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container {
+    position: relative;
+    left: 0%;
+    top: 0%;
+    height: 100%;
+    width: 100%;
+    animation: animate 20s ease-in-out infinite;
+    opacity: 0.2;
+    background-size: cover;
+}
+
+@keyframes animate{
+   0%, 100% {
+        background-image: url(/pics/469849-Chevrolet-Corvette-C4-80s-cars-red-cars-American-cars.jpg);
+    }
+   25% {
+        background-image: url(/pics/6d34089bb7e5fcfae7fee0e06e1ac364.jpg);
+    }
+   50% {
+        background-image: url(/pics/365790-4k-wallpaper.jpg)}
+   75% {
+        background-image: url(/pics/dodge_440_classic_car-wallpaper-3840x2400.jpg);
+    }
+}
+
+.carLot{
+
+    position: absolute;
+}
+.bow{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    color: black;
+}
